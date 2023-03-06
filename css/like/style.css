@@ -1,0 +1,19 @@
+.like {
+    margin-bottom: 40px;
+}
+
+.like__wrapper {
+    background: url(../../img/like/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 30px 20px;
+}
+
+.like__title{
+    margin-bottom: 30px;
+}
+
+.like__figures {
+    margin-bottom: 20px;
+}

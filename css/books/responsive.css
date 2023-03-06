@@ -1,0 +1,72 @@
+@media (min-width: 479px) {
+    .books {
+        margin-bottom: 50px;
+    }
+
+    .books__wrapper {
+        padding: 40px 30px;
+    }
+
+    .books__title{
+        margin-bottom: 40px;
+    }
+
+    .books__figures {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:719px) {
+    .books {
+        margin-bottom: 60px;
+    }
+
+    .books__wrapper {
+        padding: 50px 40px;
+        background-position: center;
+    }
+
+    .books__title{
+        margin-bottom: 51px;
+    }
+
+    .books__figures {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:959px) {
+    .books {
+        margin-bottom: 70px;
+    }
+
+    .books__wrapper {
+        padding: 65px 60px;
+    }
+
+    .books__title{
+        margin-bottom: 62px;
+    }
+
+    .books__figures {
+        margin-bottom: 71px;
+    }
+}
+
+@media (min-width:1199px) {
+    .books {
+        margin-bottom: 80px;
+    }
+
+    .books__wrapper {
+        padding: 77px 70px 80px;
+    }
+
+    .books__title{
+        margin-bottom: 40px;
+    }
+
+    .books__figures {
+        margin-bottom: 64px;
+    }
+}
+
