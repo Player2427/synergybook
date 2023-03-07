@@ -1,18 +1,17 @@
 .journals {
-    margin-bottom: 79px;
+    margin-bottom: 40px;
 }
 
 .journals__content {
     display: grid;
     
-    grid-template-columns: repeat(2, 1fr);
-    gap: 81px;
-    padding: 35px 70px 0;
-    margin-bottom: 159px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
 }
 
 .journals__title {
-    margin-bottom: 46px;
+    margin-bottom: 25px;
 }
 
 .journals__subtitle {
@@ -20,9 +19,9 @@
     text-align: left;
     color: #040404;
 
-    font-size: 22px;
-    line-height: 31px;
-    margin-bottom: 98px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
 }
 
 .journals__button {
@@ -31,10 +30,22 @@
     background: #F4B511;
     color: #000000;
     border: none;
+}
 
+.journals__button-first {
+    display: none;
+    
     font-size: 20px;
     line-height: 25px;
     padding: 25px 30px;
+}
+
+.journals__button-second {
+    display: inline-block;
+
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 20px;
 }
 
 .column-right {

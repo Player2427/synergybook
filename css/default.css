@@ -21,6 +21,7 @@ img{
 
 .container {
     max-width: 1200px;
+    min-width: 314px;
     padding: 0 20px;
     margin: auto;
     box-sizing: border-box;

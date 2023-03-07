@@ -46,7 +46,7 @@
 
     .header__wrapper_scrolltop {
         box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 3px 6px rgba(0,0,0,0.23);
-        opacity: 1;
+        opacity: .9;
     }
     
     .header-container {
