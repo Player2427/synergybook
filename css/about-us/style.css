@@ -1,0 +1,26 @@
+.about-us {
+    margin-bottom: 129px;
+}
+
+.about-us__title {
+    margin-bottom: 73px;
+}
+
+.about-us__content {
+    padding: 0 60px;
+}
+
+.about-us__paragraph {
+    color: #312F2F;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.about-us__quote {
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 26px;
+    border-left: 10px solid #0044DB;
+}

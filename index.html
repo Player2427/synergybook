@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Document</title>
 </head>
@@ -102,7 +103,7 @@
         </div>
     </section>
 
-    <section class="books container">
+    <!-- <section class="books container">
         <div class="books__wrapper">
             <h2 class="books__title title-block">Книги</h2>
             <form class="books-search" action="" method="post">
@@ -201,104 +202,111 @@
                 <a class="books-show__all" href="#">Посмотреть все</a>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- <section class="journals">
-        <div class="container journals__container">
+    <section class="journals container">
+        <div class="journals__content">
             <div class="column-left">
-                <h2 class="title-block">Журналы</h2>
-                <p class="subtitle-block">Проекция абсолютной угловой скорости на&nbsp;оси системы координат xyz, в&nbsp;силу третьего закона Ньютона, искажает успокоитель качки. Ньютонометр мал. Если основание движется с&nbsp;постоянным ускорением, центр сил стабилизирует собственный кинетический момент.</p>
-                <button class="button">Посмотреть все журналы</button>
+                <h2 class="journals__title title-block">Журналы</h2>
+                <p class="journals__subtitle subtitle-block">Проекция абсолютной угловой скорости на&nbsp;оси системы координат xyz, в&nbsp;силу третьего закона Ньютона, искажает успокоитель качки. Ньютонометр мал. Если основание движется с&nbsp;постоянным ускорением, центр сил стабилизирует собственный кинетический момент.</p>
+                <button class="journals__button">Посмотреть все журналы</button>
             </div>
             <div class="column-right">
-                <figure class="journal">
+                <div class="journal">
                     <div class="journal__title">Современная конкуренция</div>
                     <div class="journal__from">Научно-практический журнал</div>
-                    <img src="img/journals/arrow.svg" alt="">
-                </figure>
-                <figure class="journal">
+                    <img class="journal__arrow" src="img/journals/arrow.svg" alt="">
+                </div>
+                <div class="journal">
                     <div class="journal__title">Прикладная информатика</div>
                     <div class="journal__from">Научно-практический журнал</div>
-                    <img src="img/journals/arrow.svg" alt="">
-                </figure>
+                    <img class="journal__arrow" src="img/journals/arrow.svg" alt="">
+                </div>
             </div>
-            <img src="img/journals/journal.jpg" alt="">
         </div>
-    </section> -->
+        <img class="journals__img" src="img/journals/journal.jpg" alt="">
+    </section>
 
-    <!-- <section class="about-us">
-        <div class="container">
-            <h2 class="title-block">О нас</h2>
-            <p><q class="quote">&laquo;Мы&nbsp;должны перешагнуть рамки учебников, пойти неизведанными боковыми тропками и&nbsp;поведать всему миру о&nbsp;великолепии нашего путешествия&raquo;</q></p>
-            <p>&mdash;&nbsp;говорил Джон Хоуп Франклин, известный американский ученый и&nbsp;историк, заслуживший всемирное признание своим упорным трудом и&nbsp;научными работами. И&nbsp;мы&nbsp;с&nbsp;ним абсолютно согласны.</p>
-            <p><q class="quote">&laquo;Образование&nbsp;&mdash; то, что остается после того, как забывается все, чему учили&raquo;</q></p>
-            <p>&mdash;&nbsp;говорил великий Эйнштейн. Издательство университета &laquo;Синергия&raquo; нацелено на&nbsp;то, чтобы вы&nbsp;получили ОБРАЗОВАНИЕ!</p>
-            <p>Именно для вас мы&nbsp;готовим к&nbsp;печати и&nbsp;издаем широкий перечень учебной и&nbsp;научной литературы. Все выпускаемые издания в&nbsp;обязательном порядке проходят процедуру рецензирования и&nbsp;научного редактирования.</p>
-            <p>В&nbsp;портфель нашего издательства входят научные журналы, монографии, сборники научных трудов, учебники и&nbsp;учебные пособия для системы высшего и&nbsp;среднего профессионального образования. Вся издаваемая учебная литература соответствует федеральным государственным образовательным стандартам.</p>
-            <p>Издательство выпускает книги по&nbsp;следующим отраслям знаний: предпринимательство, менеджмент, маркетинг, финансы, экономика, право, бухгалтерский учет, организация торговли и&nbsp;др.</p>
-            <p>Наши книги вы&nbsp;можете заказать на&nbsp;нашем сайте и&nbsp;приобрести в&nbsp;библиотеке на&nbsp;площадке Семеновская, в&nbsp;киосках магазина Store Synergy, а&nbsp;также, книжных магазинах Москвы и&nbsp;крупных интернет-магазинах.</p>
+    <section class="about-us container">
+        <div class="about-us__content">
+            <h2 class="about-us__title title-block">О нас</h2>
+            <blockquote class="about-us__paragraph about-us__quote">
+                <p>&laquo;Мы&nbsp;должны перешагнуть рамки учебников, пойти неизведанными боковыми тропками и&nbsp;поведать всему миру о&nbsp;великолепии нашего путешествия&raquo;</p>
+            </blockquote>
+            <p class="about-us__paragraph">&mdash;&nbsp;говорил Джон Хоуп Франклин, известный американский ученый и&nbsp;историк, заслуживший всемирное признание своим упорным трудом и&nbsp;научными работами. И&nbsp;мы&nbsp;с&nbsp;ним абсолютно согласны.</p>
+            <blockquote class="about-us__paragraph about-us__quote">
+                <p>&laquo;Образование&nbsp;&mdash; то, что остается после того, как забывается все, чему учили&raquo;</p>
+            </blockquote>
+            <p class="about-us__paragraph">&mdash;&nbsp;говорил великий Эйнштейн. Издательство университета &laquo;Синергия&raquo; нацелено на&nbsp;то, чтобы вы&nbsp;получили ОБРАЗОВАНИЕ!</p>
+            <p class="about-us__paragraph">Именно для вас мы&nbsp;готовим к&nbsp;печати и&nbsp;издаем широкий перечень учебной и&nbsp;научной литературы. Все выпускаемые издания в&nbsp;обязательном порядке проходят процедуру рецензирования и&nbsp;научного редактирования.</p>
+            <p class="about-us__paragraph">В&nbsp;портфель нашего издательства входят научные журналы, монографии, сборники научных трудов, учебники и&nbsp;учебные пособия для системы высшего и&nbsp;среднего профессионального образования. Вся издаваемая учебная литература соответствует федеральным государственным образовательным стандартам.</p>
+            <p class="about-us__paragraph">Издательство выпускает книги по&nbsp;следующим отраслям знаний: предпринимательство, менеджмент, маркетинг, финансы, экономика, право, бухгалтерский учет, организация торговли и&nbsp;др.</p>
+            <p class="about-us__paragraph">Наши книги вы&nbsp;можете заказать на&nbsp;нашем сайте и&nbsp;приобрести в&nbsp;библиотеке на&nbsp;площадке Семеновская, в&nbsp;киосках магазина Store Synergy, а&nbsp;также, книжных магазинах Москвы и&nbsp;крупных интернет-магазинах.</p>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="docs">
-        <div class="container">
-            <h2 class="title-block">Информация для авторов</h2>
-            <div class="docs">
-                <div class="docs__item doc">
-                    <img src="img/doc.svg" alt="" class="doc__img">
+    <section class="docs container">
+        <div class="docs__wrapper">
+            <h2 class="docs__title title-block">Информация для авторов</h2>
+            <div class="docs-card">
+                <div class="docs-card__item doc">
+                    <!-- <img src="img/doc.svg" alt="" class="doc__img"> -->
                     <p class="doc__p">Справочник автора</p>
                     <a href="#" class="doc__download">Скачать</a>
                 </div>
-                <div class="docs__item doc">
+                <div class="docs-card__item doc">
                     <img src="img/doc.svg" alt="" class="doc__img">
                     <p class="doc__p">Бланк для заключения авторского договора</p>
                     <a href="#" class="doc__download">Скачать</a>
                 </div>
-                <div class="docs__item doc">
+                <div class="docs-card__item doc">
                     <img src="img/doc.svg" alt="" class="doc__img">
                     <p class="doc__p">Авторский договор (публичная оферта) на публикацию монографии, научной статьи</p>
                     <a href="#" class="doc__download">Скачать</a>
                 </div>
-                <div class="docs__item doc">
-                    <img src="img/doc.svg" alt="" class="doc__img">
+                <div class="docs-card__item doc">
+                    <!-- <img src="img/doc.svg" alt="" class="doc__img"> -->
                     <p class="doc__p">Авторский договор (публичная оферта) на публикацию учебника</p>
                     <a href="#" class="doc__download">Скачать</a>
                 </div>
-                <div class="docs__item doc">
+                <div class="docs-card__item doc">
                     <img src="img/doc.svg" alt="" class="doc__img">
                     <p class="doc__p">Авторский договор (публичная оферта) на публикацию сборника</p>
                     <a href="#" class="doc__download">Скачать</a>
                 </div>
-                <div class="docs__item doc">
+                <div class="docs-card__item doc">
                     <img src="img/doc.svg" alt="" class="doc__img">
                     <p class="doc__p">Заявка на публикацию материалов в сборнике</p>
                     <a href="#" class="doc__download">Скачать</a>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="docs">
-        <div class="container">
-            <h2 class="title-block">Контакты</h2>
-            <p>Адрес: <a href="https://yandex.ru/maps/org/moskovskaya_akademiya_predprinimatelstva/181540029160/?ll=37.540789%2C55.805782&mode=search&sctx=ZAAAAAgBEAAaKAoSCZ5eKcsQz0JAEdOgaB7A4EtAEhIJKSDtf4C19T8RaxFRTN4A3D8iBgABAgMEBSgKOABA1QFIAWIrcmVhcnI9c2NoZW1lX0xvY2FsL0dlby9FbmFibGVCZWF1dHlGaWx0ZXI9MWoCcnWdAc3MTD2gAQCoAQC9AdryVXzCAQbohYSlpAXqAQDyAQD4AQCCAlDQkNC00YDQtdGBOiDRg9C70LjRhtCwINCf0LvQsNC90LXRgtC90LDRjywgMzYsINC%2B0YQuMzAyLDMwMy4g0Jwu0JDRjdGA0L7Qv9C%2B0YDRgooCAJICAzIxM5oCDGRlc2t0b3AtbWFwcw%3D%3D&sll=37.540789%2C55.805782&sspn=0.084801%2C0.027312&text=%D0%90%D0%B4%D1%80%D0%B5%D1%81%3A%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%BD%D0%B0%D1%8F%2C%2036%2C%20%D0%BE%D1%84.302%2C303.%20%D0%9C.%D0%90%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82&z=14">улица Планетная, 36, оф.302,303. М.Аэропорт</a></p>
-            <p>Телефон:
-                <a href="tel:+74958001001">+7 (495) 8001001</a>
+    <section class="contact container">
+        <div class="contact__wrapper">
+            <h2 class="contact__title title-block">Контакты</h2>
+            <p class="contact__adres">Адрес: <a class="contact__adres-link" href="https://yandex.ru/maps/org/moskovskaya_akademiya_predprinimatelstva/181540029160/?ll=37.540789%2C55.805782&mode=search&sctx=ZAAAAAgBEAAaKAoSCZ5eKcsQz0JAEdOgaB7A4EtAEhIJKSDtf4C19T8RaxFRTN4A3D8iBgABAgMEBSgKOABA1QFIAWIrcmVhcnI9c2NoZW1lX0xvY2FsL0dlby9FbmFibGVCZWF1dHlGaWx0ZXI9MWoCcnWdAc3MTD2gAQCoAQC9AdryVXzCAQbohYSlpAXqAQDyAQD4AQCCAlDQkNC00YDQtdGBOiDRg9C70LjRhtCwINCf0LvQsNC90LXRgtC90LDRjywgMzYsINC%2B0YQuMzAyLDMwMy4g0Jwu0JDRjdGA0L7Qv9C%2B0YDRgooCAJICAzIxM5oCDGRlc2t0b3AtbWFwcw%3D%3D&sll=37.540789%2C55.805782&sspn=0.084801%2C0.027312&text=%D0%90%D0%B4%D1%80%D0%B5%D1%81%3A%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%BD%D0%B0%D1%8F%2C%2036%2C%20%D0%BE%D1%84.302%2C303.%20%D0%9C.%D0%90%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82&z=14">улица Планетная, 36, оф.302,303. М.Аэропорт</a></p>
+            <p class="contact__tel">Телефон:
+                <a class="contact__tel-link" href="tel:+74958001001">+7 (495) 8001001</a>
                 , доб.
-                <a href="tel:+74958001001'2424">2424</a>
-                <a href="tel:+74958001001'3304">3304</a>
+                <a class="contact__tel-link" href="tel:+74958001001'2424">2424,</a>
+                <a class="contact__tel-link" href="tel:+74958001001'3304">3304</a>
             </p>   
         </div>
-    </section> -->
+    </section>
 
-    <!-- <footer class="footer">
-        <div class="container">
-            <img src="img/logo-footer.svg" alt="">
-            <a href="#">Политика конфиденциальности</a>
-            <p>2022г. © Издательство Синергия</p>
+    <footer class="footer container">
+        <div class="footer__wrapper">
+            <img class="footer__logo" src="img/logo-footer.svg" alt="">
+            <div class="footer__text" >
+                <a class="footer__link" href="#">Политика конфиденциальности</a>
+                <p>2022г. © Издательство Синергия</p>
+            </div>
         </div>
-    </footer> -->
-
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
 </body>
 <script src="js/script.js"></script>
+<!-- <script src="js/select2.js"></script> -->
 </html>
