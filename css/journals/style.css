@@ -19,8 +19,8 @@
     text-align: left;
     color: #040404;
 
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1.05rem;
+    line-height: 1.55rem;
     margin-bottom: 30px;
 }
 
@@ -35,16 +35,16 @@
 .journals__button-first {
     display: none;
     
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.25px;
     padding: 25px 30px;
 }
 
 .journals__button-second {
     display: inline-block;
 
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
     padding: 10px 20px;
 }
 
@@ -67,8 +67,8 @@
     text-align: left;
     color: #2D2D2D;
 
-    font-size: 39px;
-    line-height: 44px;
+    font-size: 1.95rem;
+    line-height: 2.2rem;
     margin-bottom: 15px;
 }
 
@@ -77,8 +77,8 @@
     text-align: left;
     color: #3D3D3D;
 
-    font-size: 22px;
-    line-height: 29px;
+    font-size: 1.1rem;
+    line-height: 1.45rem;
     margin-bottom: 35px;
 }
 

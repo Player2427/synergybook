@@ -3,23 +3,24 @@
 }
 
 .footer__wrapper {
-    padding: 23px 86px 0;
+    padding: 1.15rem 4.3rem 0;
     border-top: 2px solid #8A8A8A;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 132px;
+    gap: 1.5rem 6.6rem;
 }
 
 .footer__logo {
-    width: 163px;
-    height: 31px;
+    width: 8.3rem;
+    height: 1.55rem;
 
 }
 
 .footer__text {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 1.25rem;
     text-align: left;
     color: #3D3D3D;
 }

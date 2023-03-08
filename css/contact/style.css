@@ -2,25 +2,18 @@
     
 }
 
-.contact__wrapper {
-    padding: 22px 70px 78px;
-}
-
 .contact__title {
-    margin-bottom: 80px;
+    margin-bottom: 4rem;
 }
 
 .contact__adres{
-    font-size: 36px;
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2rem;
+    margin-bottom: 2.85rem;
 }
 
 .contact__adres{
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 57px;
 }
 
 .contact__adres-link {
@@ -29,9 +22,9 @@
 }
 
 .contact__tel {
-    font-size: 22px;
+    font-size: 1.1rem;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 1.6rem;
 }
 
 .contact__tel-link {

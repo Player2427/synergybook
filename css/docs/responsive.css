@@ -4,6 +4,9 @@
 }
 
 @media (min-width:959px) {
+    .docs-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (min-width:1199px) {

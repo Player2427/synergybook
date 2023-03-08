@@ -4,6 +4,10 @@
     box-sizing: content-box;
 }
 
+html {
+    font-size: 12px;
+}
+
 body {
     font-family: 'Gilroy';
     font-size: 24px;
@@ -25,6 +29,10 @@ img{
     padding: 0 20px;
     margin: auto;
     box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 30px 20px;
 }
 
 .title-block {
@@ -78,6 +86,15 @@ img{
 
 
 @media (min-width: 479px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        padding: 40px 30px;
+    }
+    
     .title-block {
         font-size: 36px;
         line-height: 30px;
@@ -105,8 +122,15 @@ img{
 }
 
 @media (min-width:719px) {
+
+    html {
+        font-size: 16px;
+    }
     .container {
         padding: 0 30px;
+    }
+    .wrapper {
+        padding: 50px 40px;
     }
 
     .title-block {
@@ -137,6 +161,14 @@ img{
 }
 
 @media (min-width:959px) {
+
+    html {
+        font-size: 18px;
+    }
+    .wrapper {
+        padding: 65px 60px;
+    }
+
     .title-block {
         font-size: 60px;
         line-height: 50px;
@@ -163,6 +195,12 @@ img{
 }
 
 @media (min-width:1199px) {
+    html {
+        font-size: 20px;
+    }
+    .wrapper {
+        padding: 75px 70px;
+    }
     .title-block {
         font-size: 70px;
         line-height: 55px;

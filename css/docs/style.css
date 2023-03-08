@@ -1,18 +1,14 @@
 .docs {
 }
 
-.docs__wrapper{
-    padding: 0 100px 70px;
-}
-
 .docs__title {
-    margin-bottom: 119px;
+    margin-bottom: 6rem;
 }
 
 .docs-card {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 2.5rem;
 }
 
 .doc__img {
@@ -22,8 +18,8 @@
 }
 
 .doc__p {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
     color: #2D2D2D;
     
     margin-bottom: 18px 0 22px;
@@ -31,7 +27,7 @@
 
 .doc__download {
     text-decoration: none;
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 0.85rem;
+    line-height: 1.15rem;
     color: #0044DB;
 }
