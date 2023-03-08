@@ -4,20 +4,6 @@
         gap: 20px;
         margin-bottom: 50px;
     }
-
-    .journals__title {
-        margin-bottom: 25px;
-    }
-
-    .journals__subtitle {
-        font-weight: 400;
-        text-align: left;
-        color: #040404;
-
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 30px;
-    }
 }
 @media (min-width:719px) {
     .journals {
@@ -30,10 +16,17 @@
         margin-bottom: 20px;
     }
 
-    .journals__title {
-        margin-bottom: 25px;
+    .journals__button-first {
+        display: inline-block;
     }
     
+    .journals__button-second {
+        display: none;
+    }
+    
+    .journal {
+        margin-bottom: 2rem;
+    }
 }
 
 @media (min-width:959px) {
@@ -44,10 +37,6 @@
         gap: 50px;
         padding: 20px;
         margin-bottom: 20px;
-    }
-
-    .journals__title {
-        margin-bottom: 25px;
     }
 
 }
@@ -61,10 +50,6 @@
         gap: 81px;
         padding: 35px 70px 0;
         margin-bottom: 159px;
-    }
-    
-    .journals__title {
-        margin-bottom: 46px;
     }
 }
 
