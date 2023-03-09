@@ -18,6 +18,10 @@
     .books-search__submit{
         width: 60px;
     }
+
+    .books-show {
+        gap: 30px;
+    }
 }
 @media (min-width:719px) {
     .books {
@@ -76,6 +80,11 @@
         position: static;
         background: none;
     }
+
+    .books-show__more{
+        width: calc(25% - 20px);
+        height: 3rem;
+    }
 }
 
 @media (min-width:959px) {
@@ -93,6 +102,14 @@
 
     .books__figures {
         margin-bottom: 71px;
+    }
+
+    .books-show{
+        gap: 40px;
+    }
+
+    .books-show__more {
+        width: calc(25% - 30px);
     }
 }
 
@@ -132,6 +149,14 @@
     .books-filters__sort {
         font-size: 18px;
         line-height: 23px;
+    }
+
+    .books-show{
+        gap: 60px;
+    }
+
+    .books-show__more {
+        width: calc(25% - 45px);
     }
 }
 
