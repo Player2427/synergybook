@@ -50,6 +50,7 @@
     background: #0044DB;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 
@@ -156,6 +157,7 @@
     color: #FFFFFF;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .books-show__all{

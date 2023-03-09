@@ -41,10 +41,17 @@
                 </div>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Книги</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Журналы</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">О&nbsp;нас</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Информация для авторов</a></li>
+                        <li class="menu__item">
+                            <a href="#books" class="menu__link">Книги</a>
+                            <ul class="menu__drop">
+                                <li class="menu__drop-item">one</li>
+                                <li class="menu__drop-item">two</li>
+                                <li class="menu__drop-item">three</li>
+                            </ul>
+                        </li>
+                        <li class="menu__item"><a href="#journals" class="menu__link">Журналы</a></li>
+                        <li class="menu__item"><a href="#about-us" class="menu__link">О&nbsp;нас</a></li>
+                        <li class="menu__item"><a href="#docs" class="menu__link">Информация для авторов</a></li>
                     </ul>
                 </nav>
             </div>
@@ -103,7 +110,7 @@
         </div>
     </section>
 
-    <section class="books container">
+    <section class="books container" id="books">
         <div class="books__wrapper">
             <h2 class="books__title title-block">Книги</h2>
             <form class="books-search" action="" method="post">
@@ -202,7 +209,7 @@
         </div>
     </section>
 
-    <section class="journals container">
+    <section class="journals container" id="journals">
         <div class="journals__content wrapper">
             <div class="column-left">
                 <h2 class="journals__title title-block">Журналы</h2>
@@ -226,7 +233,7 @@
         <img class="journals__img" src="img/journals/journal.jpg" alt="">
     </section>
 
-    <section class="about-us container">
+    <section class="about-us container" id="about-us">
         <div class="wrapper">
             <h2 class="about-us__title title-block">О нас</h2>
             <blockquote class="about-us__paragraph about-us__quote">
@@ -244,7 +251,7 @@
         </div>
     </section>
 
-    <section class="docs container">
+    <section class="docs container"  id="docs">
         <div class="wrapper">
             <h2 class="docs__title title-block">Информация для авторов</h2>
             <div class="docs-card">
@@ -289,8 +296,8 @@
             <p class="contact__tel">Телефон:
                 <a class="contact__tel-link" href="tel:+74958001001">+7 (495) 8001001</a>
                 , доб.
-                <a class="contact__tel-link" href="tel:+74958001001'2424">2424,</a>
-                <a class="contact__tel-link" href="tel:+74958001001'3304">3304</a>
+                <a class="contact__tel-link" href="tel:+74958001001p2424">2424,</a>
+                <a class="contact__tel-link" href="tel:+74958001001p3304">3304</a>
             </p>   
         </div>
     </section>

@@ -141,6 +141,7 @@
 
 .menu__item {
     list-style: none;
+    position: relative;
 }
 
 .menu__link {
@@ -156,5 +157,9 @@
 
 .menu__item:first-child > .menu__link {
     border-top: 1px solid #a3a3a3;
+}
+
+.menu__drop {
+    display: none;
 }
 

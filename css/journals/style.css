@@ -29,6 +29,7 @@
     background: #F4B511;
     color: #000000;
     border: none;
+    cursor: pointer;
 }
 
 .journals__button-first {
@@ -85,6 +86,7 @@
 .journal__arrow {
     width: 3.85rem;
     height: auto;
+    cursor: pointer;
 }
 
 .journals__img {

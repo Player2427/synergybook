@@ -123,6 +123,23 @@
         border-top: none;
     }
 
+    .menu__drop {
+        display: none;
+        position: absolute;
+        width: calc(100% + 90px);
+        background: #F5F5F5;   
+        box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 3px 6px rgba(0,0,0,0.23);
+        /* border: 1px solid red; */
+        list-style: none;
+        top:  
+    }
+
+    .menu__drop-item {
+        border: 1px solid #FFCA40;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
 }
 
 @media (min-width:959px) {
