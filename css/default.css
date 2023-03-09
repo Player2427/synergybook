@@ -75,6 +75,7 @@ img{
     font-size: 13px;
     line-height: 14px;
     color: #3D3D3D;
+    word-wrap: anywhere;
 }
 
 
