@@ -148,8 +148,8 @@
 
 .books-show__more{
     background: #000000;
-    width: 90%;
-    height: 3.75rem;
+    width: auto;
+    height: auto;
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.15rem;
@@ -158,6 +158,8 @@
     outline: none;
     border: none;
     cursor: pointer;
+    padding: 1.5rem 2.5rem;
+    margin-right: 3rem;
 }
 
 .books-show__all{
