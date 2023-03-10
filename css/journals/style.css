@@ -57,6 +57,7 @@
     padding: 1.5rem 0.5rem 1.75rem 0;
     border-top: 1px solid #B6B6B6;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .journal:last-child {
@@ -86,7 +87,6 @@
 .journal__arrow {
     width: 3.85rem;
     height: auto;
-    cursor: pointer;
 }
 
 .journals__img {
